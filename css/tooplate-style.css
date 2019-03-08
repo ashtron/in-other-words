@@ -43,11 +43,12 @@ p {
 =======================*/
 
 .first-section {
-	background-image: url(../img/first-section-bg.png);
+	/* background-image: url(../img/first-section-bg.png); */
+	background-color: #2a313d;
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 20% 0px 20% 0px;
+	padding: 15% 0px 15% 0px;
 }
 
 .first-section .text-content {
@@ -107,11 +108,12 @@ p {
 =======================*/
 
 .third-section {
-	background-image: url(../img/third-section-bg.png);
+	/* background-image: url(../img/third-section-bg.png); */
+	background-color: #425b8f;
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 20% 0px;
+	padding: 10% 0px;
 }
 
 .third-section .left-image img {
@@ -275,11 +277,11 @@ p {
 =======================*/
 
 .sixth-section {
-	background-image: url(../img/sixth-section-bg.png);
+	/* background-image: url(../img/sixth-section-bg.png); */
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 10% 0px;
+	padding: 5% 0px;
 }
 
 .sixth-section input {
@@ -371,11 +373,12 @@ p {
 
 footer {
 	text-align: center;
-	background-image: url(../img/footer-bg.png);
+	/* background-image: url(../img/footer-bg.png); */
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 11% 0px 4% 0px;
+	padding: 3% 0px 2% 0px;
+	background-color: #425b8f;
 }
 
 footer ul {
