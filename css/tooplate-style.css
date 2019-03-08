@@ -40,8 +40,14 @@ p {
 ----- FIRST SECTION------
 =======================*/
 
-.typewriter {
-	margin-top: 15%;
+#typewriter {
+	margin-top: 7%;
+	color: #fff;
+	font-size: 32px;
+}
+
+#typewriter::before {
+  content: "We ";
 }
 
 /* Desktops and laptops ----------- */
@@ -52,13 +58,22 @@ and (min-width : 1224px) {
 		}
 }
 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	#typewriter {
+		font-size: 16px;
+		text-align: center;
+	}
+}
+
 .first-section {
 	/* background-image: url(../img/first-section-bg.png); */
 	background-color: #2a313d;
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 7% 0px 7% 0px;
+	padding: 7% 0px 0% 0px;
 }
 
 .first-section .text-content {

@@ -26,7 +26,6 @@ http://www.tooplate.com/view/2091-ziggy
         <link rel="stylesheet" href="css/tooplate-style.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <!-- <script src="https://cdn.jsdelivr.net/npm/typeit@6/dist/typeit.min.js"></script> -->
     </head>
 
     <body>
@@ -42,7 +41,7 @@ http://www.tooplate.com/view/2091-ziggy
               </div>
             </div>
           </div>
-          <!-- <p></p> -->
+          <div id="typewriter"></div>
         </section>
 
         <section class="second-section">
@@ -188,5 +187,14 @@ http://www.tooplate.com/view/2091-ziggy
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
+        <script src="js/vendor/core.js"></script>
+        <script type="text/javascript">
+          const instance = new Typewriter('#typewriter', {
+            strings: ["tell stories.", "create experiences.", "give your brand a voice."],
+            autoStart: true,
+            loop: true,
+          });
+        </script>
+        
     </body>
 </html>
