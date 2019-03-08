@@ -32,15 +32,25 @@ p {
 	display: inline-block;
 	border-radius: 24px;
 	font-size: 11px;
-	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 1px;
 }
 
-
 /* ======================
 ----- FIRST SECTION------
 =======================*/
+
+.typewriter {
+	margin-top: 15%;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    .sixth-section {
+			margin-left: 12.5%;
+		}
+}
 
 .first-section {
 	/* background-image: url(../img/first-section-bg.png); */
@@ -48,7 +58,7 @@ p {
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 15% 0px 15% 0px;
+	padding: 7% 0px 7% 0px;
 }
 
 .first-section .text-content {
@@ -58,8 +68,7 @@ p {
 
 .first-section .text-content h2 {
 	font-size: 44px;
-	text-transform: uppercase;
-	font-weight: 900;
+	font-weight: 700;
 	letter-spacing: 1px;
 }
 
@@ -72,7 +81,6 @@ p {
 
 .first-section .text-content span {
 	font-size: 18px;
-	text-transform: uppercase;
 	font-weight: 300;
 	letter-spacing: 1px;
 }
@@ -113,7 +121,7 @@ p {
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 10% 0px;
+	padding: 6% 0px;
 }
 
 .third-section .left-image img {
@@ -137,7 +145,6 @@ p {
 	color: #fff;
 	font-size: 24px;
 	font-weight: 700;
-	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
@@ -262,7 +269,6 @@ p {
 	color: #fff;
 	font-size: 24px;
 	font-weight: 700;
-	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
@@ -282,6 +288,7 @@ p {
 	width: 100%;
 	background-repeat: no-repeat;
 	padding: 5% 0px;
+	/* margin-left: 12.5%; */
 }
 
 .sixth-section input {
@@ -318,7 +325,6 @@ p {
 	display: inline-block;
 	border-radius: 24px;
 	font-size: 11px;
-	text-transform: uppercase;
 	font-weight: 700;
 	background-color: #415b90;
 	color: #fff;
@@ -451,7 +457,6 @@ footer a:hover {
 
 .first-gallery-section .text-content h2 {
 	font-size: 44px;
-	text-transform: uppercase;
 	font-weight: 900;
 	letter-spacing: 1px;
 }
@@ -465,7 +470,6 @@ footer a:hover {
 
 .first-gallery-section .text-content span {
 	font-size: 18px;
-	text-transform: uppercase;
 	font-weight: 300;
 	letter-spacing: 1px;
 }
@@ -522,7 +526,6 @@ footer a:hover {
   border: 1px solid #ddd;
   padding: 10px 18px;
   font-size: 11px;
-  text-transform: uppercase;
   font-weight: 700;
 }
 
@@ -644,7 +647,8 @@ footer a:hover {
 	}
 
 	.first-section {
-		padding: 150px 0px 200px 0px;
+		/* padding: 150px 0px 200px 0px; */
+		padding-top: 0px;
 	}
 
 	.first-section .text-content {
@@ -656,7 +660,7 @@ footer a:hover {
 	}
 
 	.second-section {
-		padding: 50px 0px 0px 0px;
+		/* padding: 50px 0px 0px 0px; */
 	}
 
 	.second-section .service-item {
@@ -666,7 +670,7 @@ footer a:hover {
 	.third-section {
 		margin-top: -50px;
 		text-align: center;
-		padding: 250px 0px 150px 0px;
+		/* padding: 250px 0px 150px 0px; */
 	}
 
 	.third-section .right-text {
@@ -703,7 +707,7 @@ footer a:hover {
 
 	.sixth-section {
 		text-align: center;
-		padding: 0px 0px 0px 0px;
+		/* padding: 0px 0px 0px 0px; */
 	}
 
 	.sixth-section .right-info {
@@ -714,7 +718,8 @@ footer a:hover {
 
 	footer {
 		margin-top: -50px;
-		padding: 200px 0px 20px 0px;
+		margin-bottom: 20px;
+		/* padding: 200px 0px 20px 0px; */
 	}
 }
 

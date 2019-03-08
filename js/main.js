@@ -8,5 +8,5 @@ jQuery(document).ready(function($) {
             easing: 'snap',
             transitionSpeed: 400
         });
-
+				
 });
