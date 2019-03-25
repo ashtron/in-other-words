@@ -137,7 +137,7 @@ and (max-device-width : 480px) {
 
 .third-section {
 	/* background-image: url(../img/third-section-bg.png); */
-	background-color: #425b8f;
+	background-color: #e9edde;
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -162,15 +162,15 @@ and (max-device-width : 480px) {
 
 .third-section h4 {
 	margin-top: 60px;
-	color: #fff;
+	color: #000;
 	font-size: 24px;
 	font-weight: 700;
 	letter-spacing: 1px;
-	-webkit-text-stroke: 1px black;
+	/* -webkit-text-stroke: 0.5px white; */
 }
 
 .third-section p {
-	color: #fff;
+	color: #000;
 	margin-top: 15px;
 }
 
@@ -405,7 +405,7 @@ footer {
 	width: 100%;
 	background-repeat: no-repeat;
 	padding: 3% 0px 2% 0px;
-	background-color: #425b8f;
+	background-color: #2a313d;
 }
 
 footer ul {
